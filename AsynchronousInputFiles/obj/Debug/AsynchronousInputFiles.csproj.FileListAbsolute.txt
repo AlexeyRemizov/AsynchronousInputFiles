@@ -3,3 +3,4 @@ C:\Users\oleksii.remizov\Documents\Visual Studio 2017\Projects\AsynchronousInput
 C:\Users\oleksii.remizov\Documents\Visual Studio 2017\Projects\AsynchronousInputFiles\AsynchronousInputFiles\bin\Debug\AsynchronousInputFiles.pdb
 C:\Users\oleksii.remizov\Documents\Visual Studio 2017\Projects\AsynchronousInputFiles\AsynchronousInputFiles\obj\Debug\AsynchronousInputFiles.exe
 C:\Users\oleksii.remizov\Documents\Visual Studio 2017\Projects\AsynchronousInputFiles\AsynchronousInputFiles\obj\Debug\AsynchronousInputFiles.pdb
+C:\Users\oleksii.remizov\Documents\Visual Studio 2017\Projects\AsynchronousInputFiles\AsynchronousInputFiles\obj\Debug\AsynchronousInputFiles.csprojResolveAssemblyReference.cache

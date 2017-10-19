@@ -20,11 +20,14 @@ namespace AsynchronousInputFiles
             try
             {
                 GetAllFiles getAllFiles = new GetAllFiles();
+                
+                // A method call that checks that the directory is not empty
+                getAllFiles.CheckDirectory(directory);
                 var paths = getAllFiles.FindAllFilesInDirectory(directory);
                 foreach (var path in paths)
                 {
                     // A method call that checks that the file is not empty
-                    getAllFiles.CheckForExeption(path);
+                    getAllFiles.CheckFile(path);
 
                     //Using FileStream without  USING
                     FileStream sourceStream = new FileStream(path,
@@ -62,6 +65,7 @@ namespace AsynchronousInputFiles
 
 
             }
+
             //Catch exeption
             catch (Exception ex)
             {
@@ -69,18 +73,6 @@ namespace AsynchronousInputFiles
                 Console.WriteLine(ex.ToString());
             }
 
-
-            //The example closes all FileStream instances in a finally block after the tasks are complete. 
-            //If each FileStream was instead created in a using statement, the FileStream might be disposed 
-            //of before the task was complete.
-            finally
-            {
-                foreach (FileStream sourceStream in sourceStreams)
-                {
-                    sourceStream.Close();
-                }
-            }    
-            
             return wordsStat;
         }
     }

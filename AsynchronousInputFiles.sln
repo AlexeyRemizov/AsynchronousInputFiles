@@ -7,6 +7,32 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousInputFiles", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousInputFiles.Tests", "AsynchronousInputFiles.Tests\AsynchronousInputFiles.Tests.csproj", "{8D6FCFBA-7B2E-4C56-85BE-BDBC053B9399}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{421856F4-DF09-4A72-B2C5-886B124B8689}"
+	ProjectSection(SolutionItems) = preProject
+		D:\Logs!\CallController-2017-10-05_13hr.log = D:\Logs!\CallController-2017-10-05_13hr.log
+		D:\Logs!\CallController-2017-10-05_14hr.log = D:\Logs!\CallController-2017-10-05_14hr.log
+		D:\Logs!\CallController.Core-2017-10-01.log = D:\Logs!\CallController.Core-2017-10-01.log
+		D:\Logs!\CallController.Core-2017-10-02.log = D:\Logs!\CallController.Core-2017-10-02.log
+		D:\Logs!\CallController.Core-2017-10-03.log = D:\Logs!\CallController.Core-2017-10-03.log
+		D:\Logs!\CallController.Core-2017-10-04.log = D:\Logs!\CallController.Core-2017-10-04.log
+		D:\Logs!\CTI_Receiver-2017-10-05.log = D:\Logs!\CTI_Receiver-2017-10-05.log
+		D:\Logs!\CyberTech.ContentManager.Storage.WindowsService-2017-10-02.log = D:\Logs!\CyberTech.ContentManager.Storage.WindowsService-2017-10-02.log
+		D:\Logs!\CyberTech.ContentManager.Storage.WindowsService-2017-10-03.log = D:\Logs!\CyberTech.ContentManager.Storage.WindowsService-2017-10-03.log
+		D:\Logs!\CyberTech.ContentManager.Storage.WindowsService-2017-10-04.log = D:\Logs!\CyberTech.ContentManager.Storage.WindowsService-2017-10-04.log
+		D:\Logs!\CyberTech.CoreApi.Service-2017-10-01.log = D:\Logs!\CyberTech.CoreApi.Service-2017-10-01.log
+		D:\Logs!\CyberTech.CoreApi.Service-2017-10-02.log = D:\Logs!\CyberTech.CoreApi.Service-2017-10-02.log
+		D:\Logs!\CyberTech.CoreApi.Service-2017-10-03.log = D:\Logs!\CyberTech.CoreApi.Service-2017-10-03.log
+		D:\Logs!\CyberTech.CoreApi.Service-2017-10-04.log = D:\Logs!\CyberTech.CoreApi.Service-2017-10-04.log
+		D:\Logs!\CyberTech.CoreApi.Service-2017-10-05.log = D:\Logs!\CyberTech.CoreApi.Service-2017-10-05.log
+		D:\Logs!\DatabaseInterfaceClient-2017-10-05.log = D:\Logs!\DatabaseInterfaceClient-2017-10-05.log
+		D:\Logs!\DatabaseInterfaceServer-2017-10-05.log = D:\Logs!\DatabaseInterfaceServer-2017-10-05.log
+		D:\Logs!\PrtVoIP0_02.txt = D:\Logs!\PrtVoIP0_02.txt
+		D:\Logs!\PrtVoIP0_03.txt = D:\Logs!\PrtVoIP0_03.txt
+		D:\Logs!\PrtVoIP0_04.txt = D:\Logs!\PrtVoIP0_04.txt
+		D:\Logs!\RecordingService-2017-10-05.log = D:\Logs!\RecordingService-2017-10-05.log
+		D:\Logs!\ZetronSIP01-2017-10-05.log = D:\Logs!\ZetronSIP01-2017-10-05.log
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
