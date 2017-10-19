@@ -17,5 +17,16 @@ namespace AsynchronousInputFiles
             dirsList.AddRange(dirs);
             return dirsList;
         }
+
+        //A method that verifies that the file is not empty
+        public void CheckForExeption(string curFile)
+        {
+            if (!File.Exists(curFile))
+            {
+                Console.WriteLine(string.Format("File '{0}' is absent in the specified directory", curFile));
+                Console.ReadKey();
+                return;
+            }
+        }
     }
 }
